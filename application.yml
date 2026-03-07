@@ -1,3 +1,11 @@
 general:
-
   kafka-topic: trader-updates
+
+spring:
+  kafka:
+    consumer:
+      group-id: midas-group
+
+kafka:
+  topic:
+    transactions: transactions-topic  # whatever name is already there
