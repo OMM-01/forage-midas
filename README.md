@@ -222,7 +222,7 @@ The Incentive API JAR must be running before executing these tests.
 
 Terminal 1 (keep running):
 ```bash
-java -jar services/transaction-incentive-api.jar
+java -jar services/transaction-incentive-api.jar 
 ```
 
 Terminal 2:
