@@ -8,4 +8,7 @@ spring:
 
 kafka:
   topic:
-    transactions: transactions-topic  # whatever name is already there
+    transactions: transactions-topic
+
+server:
+  port: 33400
